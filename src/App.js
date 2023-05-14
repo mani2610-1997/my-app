@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import ColorChangingText from './TextAnimation';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ backgroundColor: 'black'}}>
+      <ColorChangingText text="In Chronicle everything is made with Blocks that come with pixel perfect design, interactivity and motion out of the box. Instead of designing from scratch, simply choose the right one from our library of blocks and see the magic unfold."/>
     </div>
   );
 }
 
-export default App;
+export default App; 
